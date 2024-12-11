@@ -48,7 +48,43 @@ li{
   padding-bottom: 20px;
 
 }
+.nombre_subsecretario{
+  max-width: 80%; 
+  margin-top:-80px; 
+  text-align:right;
+}
 
+
+@media all and (max-width:1100px)
+{
+
+  h1{
+    font-size: 20px;
+  }
+
+  .great-vibes-regular{
+    font-size: 50px;
+  }
+
+  .nombre_subsecretario{
+    margin-top: 0;
+    font-size: 12px;
+  }
+
+
+  ul{
+    max-width: 95%;
+  
+  
+  }
+
+
+  ul>li{
+    font-size: 16px;
+    text-align: left;
+  }
+ 
+}
 
 
 
