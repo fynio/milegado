@@ -58,13 +58,24 @@ li{
 .espaciado{
   padding-bottom: 30vh;
 }
+.container{
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 @media all and (max-width:1100px)
 {
 
+  
+
+
+
   h1{
-    font-size: 20px;
+    font-size: 58px;
   }
 
   .great-vibes-regular{
@@ -85,11 +96,20 @@ li{
 
 
   ul>li{
-    font-size: 16px;
+    font-size: 26px;
     text-align: left;
+    padding-bottom: 50px;
   }
 
   .espaciado{
     padding-bottom: 15vh;
+  }
+
+  .container{
+    min-height: 100vh;
+  }
+
+  .ContenedorFrases{
+    min-height: 100vh;
   }
 }
