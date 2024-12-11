@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Legado</title>
+  <link href="assets/animate.css" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <body>
+    <div class="decal"></div>
+		<div class="jumbotron">
+			<div class="container">
+  		  <h1 class="great-vibes-regular">Mi Legado</h1>
+        <div style="max-width: 80%; margin-top:-80px; text-align:right">Mtro. Horacio Francisco Rios Cano</div>
+       
+      </div>
+
+      <div style="padding-top:100px;">
+
+      </div>
+<div class="ContenedorFrases">
+      <ul>
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>TENGAN CRITERIO, "PIENSEN"</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>REVISAR, REVISAR Y REVISAR MIL VECES</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>TRABAJAR HASTA TARDE Y LOS FINES DE SEMANA NO ES LO MÁS IMPORTANTE, ES LO ÚNICO POR LO QUE VIVIMOS</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>EL SECRETARIO SIEMPRE TIENE LA RAZÓN</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>NO INSISTIR, "NO HAY RECURSOS", ASÍ QUE PONTE A TRABAJAR Y DA RESULTADOS</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>¡¡¡POR DIOS!!! ENTREGA "EL MENSAJE A GARCÍA", SOLO HAZLO</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>SIEMPRE LLEGA PRIMERO QUE TU JEFE A TODA ACTIVIDAD</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>SI NO SABES QUÉ ONDA, PREGÚNTALE AL LIC. RÍOS</div>
+        </li>
+        
+        <li data-aos="fade-up" data-aos-duration="3000">
+          <div>SI DE VERDAD QUIERES QUE TODO TE SALGA BIEN  <span><strong>"HAZLE CASO AL LIC. RÍOS"</strong></span></div>
+        </li>
+        
+
+      </ul>
+
+      <div style="padding-top:40vh">
+
+      </div>
+    </div>
+  	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="assets/jquery.fittext.js"></script>
+<script src="assets/jquery.lettering.js"></script>
+<script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+<script src="jquery.textillate.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script>
+  $(function (){
+  
+ 
+
+    var animateClasses = 'flash bounce shake tada swing wobble pulse flip flipInX flipOutX flipInY flipOutY fadeIn fadeInUp fadeInDown fadeInLeft fadeInRight fadeInUpBig fadeInDownBig fadeInLeftBig fadeInRightBig fadeOut fadeOutUp fadeOutDown fadeOutLeft fadeOutRight fadeOutUpBig fadeOutDownBig fadeOutLeftBig fadeOutRightBig bounceIn bounceInDown bounceInUp bounceInLeft bounceInRight bounceOut bounceOutDown bounceOutUp bounceOutLeft bounceOutRight rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight hinge rollIn rollOut';
+
+
+
+    
+    $('h1') 
+    .textillate({ in: { delay:10, effect: 'flipInY' }});
+
+
+
+     
+
+
+    var $tlt = $viewport.find('.tlt')
+      .on('start.tlt', log('start.tlt triggered.'))
+      .on('inAnimationBegin.tlt', log('inAnimationBegin.tlt triggered.'))
+      .on('inAnimationEnd.tlt', log('inAnimationEnd.tlt triggered.'))
+      .on('outAnimationBegin.tlt', log('outAnimationBegin.tlt triggered.'))
+      .on('outAnimationEnd.tlt', log('outAnimationEnd.tlt triggered.'))
+      .on('end.tlt', log('end.tlt'));
+
+    $form.on('change', function () {
+      var obj = getFormData();
+      $tlt.textillate(obj);
+    }).trigger('change');
+
+  });
+
+	</script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
