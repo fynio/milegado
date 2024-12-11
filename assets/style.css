@@ -106,10 +106,10 @@ li{
   }
 
   .container{
-    min-height: 100vh;
+    min-height: 90vh;
   }
 
   .ContenedorFrases{
-    min-height: 80vh;
+    min-height: 100vh;
   }
 }
