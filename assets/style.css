@@ -10,7 +10,7 @@ body {
   color: #eee;
   font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
   font-size: 14px;
-  background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-grunge-oscuro-3d-atmosfera-ahumada_1048-16218.jpg?t=st=1733938679~exp=1733942279~hmac=f46924f…&w=740);
+  background-image: url(fondo.avif);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -112,4 +112,11 @@ li{
   .ContenedorFrases{
     min-height: 100vh;
   }
+
+  
+body {
+  background-image: url(milegado.png);
+}
+
+
 }
