@@ -10,7 +10,7 @@ body {
   color: #eee;
   font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
   font-size: 14px;
-  background-image: url(fondo.avif);
+  background-image: url(https://img.freepik.com/foto-gratis/fondo-pantalla-grunge-oscuro-3d-atmosfera-ahumada_1048-16218.jpg?t=st=1733938679~exp=1733942279~hmac=f46924f…&w=740);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -67,27 +67,9 @@ li{
   margin: auto;
 }
 
-.espaciado{
-  padding-bottom: 30vh;
-}
-.container{
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-
 @media all and (max-width:1100px)
 {
 
-<<<<<<< HEAD
-  
-
-
-
-=======
   .jumbotron>.container {
     min-height: 100vh;
     display: flex;
@@ -96,9 +78,8 @@ li{
     justify-content: center;
 }
   
->>>>>>> origin/master
   h1{
-    font-size: 58px;
+    font-size: 20px;
   }
 
   .great-vibes-regular{
@@ -119,27 +100,11 @@ li{
 
 
   ul>li{
-    font-size: 26px;
+    font-size: 16px;
     text-align: left;
-    padding-bottom: 50px;
   }
-
-  .espaciado{
-    padding-bottom: 15vh;
-  }
-
-  .container{
-    min-height: 80vh;
-  }
-
-  .ContenedorFrases{
-    min-height: 100vh;
-  }
-
-  
-body {
-  background-image: url(milegado.png);
+ 
 }
 
 
-}
+
