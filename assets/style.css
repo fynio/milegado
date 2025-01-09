@@ -83,9 +83,6 @@ p{
 @media all and (max-width:1100px)
 {
 
-<<<<<<< HEAD
-=======
-  
 p{
   font-size: 16px;
   text-align: justify;
@@ -99,7 +96,6 @@ p{
     justify-content: center;
 }
   
->>>>>>> d9fd3ef5ae4fdd10657d90f0c9242ee28dd0f2f1
   h1{
     font-size: 20px;
   }
@@ -126,6 +122,9 @@ p{
     text-align: left;
   }
  
+  .Texto{
+    font-size: 16px;
+  }
 }
 
 
